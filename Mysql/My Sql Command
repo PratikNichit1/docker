@@ -1,0 +1,4 @@
+nano Dockerfile
+docker build .
+docker run -d {image name}
+docker exec -it {conatiner name} /bin/bash
